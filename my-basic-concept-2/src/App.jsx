@@ -6,7 +6,7 @@ import  SessionLogout from './components/SessionLogout'
 import CookiesExample from './components/CookiesExample'
 import AxiosFetchDataExample from './components/AxiosFetchDataExample'
 import AxiosExamplecreateNewUser from './components/AxiosExamplecreateNewUser'
-
+import WithoutUseMemo from './components/WithoutUseMemo'
 const App = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const App = () => {
       <CookiesExample/>
       <AxiosFetchDataExample/>
       <AxiosExamplecreateNewUser/>
+      <WithoutUseMemo/>
 
     </>
   )
